@@ -1,0 +1,25 @@
+{
+  "name": "Algorithms",
+  "version": "1.0.0",
+  "description": "A place for algoritms in JS",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xbs13/algorithmsInJS.git"
+  },
+  "author": "Michael Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xbs13/algorithmsInJS/issues"
+  },
+  "homepage": "https://github.com/xbs13/algorithmsInJS",
+  "dependencies": {
+    "chai": "^1.10.0"
+  }
+}
