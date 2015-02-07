@@ -2,7 +2,6 @@
   "name": "Algorithms",
   "version": "1.0.0",
   "description": "A place for algoritms in JS",
-  "main": "index.js",
   "directories": {
     "test": "test"
   },

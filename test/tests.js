@@ -3,19 +3,20 @@ var chai = require("chai"),
   expect = chai.expect;
 
 describe("Sorter", function () {
-  var s = new Sorter(), a;
+  var s = new Sorter(), test, testSorted;
   beforeEach(function () {
-     a = s.test.slice();
+    test = [ 6, 4, 2, 5, 3, 1 ];
+    testSorted =[ 1, 2, 3, 4, 5, 6 ];
   });
   describe("insert sort", function () {
     it("should sort the array in ascending order", function () {
-      expect(s.insertSort(a)).eql(s.testSorted);
+      expect(s.insertSort(test)).eql(testSorted);
     });
   });
   describe("mergeSort", function () {
     it("should sort the array in ascending order", function () {
-      var result = s.mergeSort(a);
-      expect(result).eql(s.testSorted);
+      var result = s.mergeSort(test);
+      expect(result).eql(testSorted);
     });
   });
 });
