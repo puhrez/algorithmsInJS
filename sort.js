@@ -34,6 +34,9 @@ function sort() {
       return arr;
     },
     mergeSort: function mergeSort(arr, start, end) {
+      /*
+        * worse-case: O(nlgn)
+      */
       var n = arr.length;
       start = defaultOf(start, 0);
       end = defaultOf(end, n);
