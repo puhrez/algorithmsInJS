@@ -10,13 +10,18 @@ describe("Sorter", function () {
   });
   describe("insert sort", function () {
     it("should sort the array in ascending order", function () {
-      expect(s.insertSort(test)).eql(testSorted);
+      expect(s.insertionSort(test)).eql(testSorted);
     });
   });
   describe("mergeSort", function () {
     it("should sort the array in ascending order", function () {
       var result = s.mergeSort(test);
       expect(result).eql(testSorted);
+    });
+  });
+  describe("selectionSort", function () {
+    it("should sort the array in ascending order", function () {
+      expect(s.selectionSort(test)).eql(testSorted);
     });
   });
 });
